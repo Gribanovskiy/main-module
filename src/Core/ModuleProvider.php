@@ -3,9 +3,10 @@
 
 namespace B2B\Core;
 
+use B2B\Contracts\ModuleIntarface;
 use Illuminate\Support\ServiceProvider;
 
-class ModuleProvider extends ServiceProvider
+class ModuleProvider extends ServiceProvider implements ModuleIntarface
 {
     public function boot(): void
     {
