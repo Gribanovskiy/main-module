@@ -9,7 +9,8 @@
     }
   ],
   "require": {
-    "laravel/framework": "^7.2"
+    "laravel/framework": "^7.2",
+    "hanneskod/classtools": "^1.2"
   },
   "autoload": {
     "psr-4": {
