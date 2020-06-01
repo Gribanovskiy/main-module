@@ -1,0 +1,26 @@
+{
+  "name": "gribanovskiy/main-module",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "mgribanovskii"
+    }
+  ],
+  "require": {
+    "laravel/framework": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "B2B\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "B2B\\ModuleProvider"
+      ]
+    }
+  }
+}
